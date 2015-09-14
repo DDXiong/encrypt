@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FE105E195BFD4200750614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE105D195BFD4200750614 /* Foundation.framework */; };
+		18FE1060195BFD4200750614 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE105F195BFD4200750614 /* CoreGraphics.framework */; };
+		18FE1062195BFD4200750614 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE1061195BFD4200750614 /* UIKit.framework */; };
+		18FE1068195BFD4200750614 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18FE1066195BFD4200750614 /* InfoPlist.strings */; };
+		18FE106A195BFD4200750614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE1069195BFD4200750614 /* main.m */; };
+		18FE106E195BFD4200750614 /* HMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE106D195BFD4200750614 /* HMAppDelegate.m */; };
+		18FE1071195BFD4200750614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE106F195BFD4200750614 /* Main.storyboard */; };
+		18FE1074195BFD4200750614 /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE1073195BFD4200750614 /* HMViewController.m */; };
+		18FE1076195BFD4200750614 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FE1075195BFD4200750614 /* Images.xcassets */; };
+		18FE107D195BFD4200750614 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE107C195BFD4200750614 /* XCTest.framework */; };
+		18FE107E195BFD4200750614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE105D195BFD4200750614 /* Foundation.framework */; };
+		18FE107F195BFD4200750614 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE1061195BFD4200750614 /* UIKit.framework */; };
+		18FE1087195BFD4200750614 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18FE1085195BFD4200750614 /* InfoPlist.strings */; };
+		18FE1089195BFD4200750614 /* _2_NSURLConnection02_POST__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE1088195BFD4200750614 /* _2_NSURLConnection02_POST__Tests.m */; };
+		18FE1098195BFD8F00750614 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE1094195BFD8F00750614 /* MBProgressHUD+MJ.m */; };
+		18FE1099195BFD8F00750614 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18FE1095195BFD8F00750614 /* MBProgressHUD.bundle */; };
+		18FE109A195BFD8F00750614 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE1097195BFD8F00750614 /* MBProgressHUD.m */; };
+		18FE109E195C0B6100750614 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE109D195C0B6100750614 /* NSString+Hash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FE1080195BFD4200750614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FE1052195BFD4200750614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FE1059195BFD4200750614;
+			remoteInfo = "02-NSURLConnection02-POST请求";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FE105A195BFD4200750614 /* 03-数据加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-数据加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE105D195BFD4200750614 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18FE105F195BFD4200750614 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18FE1061195BFD4200750614 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18FE1065195BFD4200750614 /* 03-数据加密-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "03-数据加密-Info.plist"; sourceTree = "<group>"; };
+		18FE1067195BFD4200750614 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18FE1069195BFD4200750614 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FE106B195BFD4200750614 /* 03-数据加密-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "03-数据加密-Prefix.pch"; sourceTree = "<group>"; };
+		18FE106C195BFD4200750614 /* HMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAppDelegate.h; sourceTree = "<group>"; };
+		18FE106D195BFD4200750614 /* HMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAppDelegate.m; sourceTree = "<group>"; };
+		18FE1070195BFD4200750614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FE1072195BFD4200750614 /* HMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		18FE1073195BFD4200750614 /* HMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
+		18FE1075195BFD4200750614 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18FE107B195BFD4200750614 /* 03-数据加密Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-数据加密Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE107C195BFD4200750614 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18FE1084195BFD4200750614 /* 03-数据加密Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "03-数据加密Tests-Info.plist"; sourceTree = "<group>"; };
+		18FE1086195BFD4200750614 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18FE1088195BFD4200750614 /* _2_NSURLConnection02_POST__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_NSURLConnection02_POST__Tests.m; sourceTree = "<group>"; };
+		18FE1093195BFD8F00750614 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		18FE1094195BFD8F00750614 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		18FE1095195BFD8F00750614 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		18FE1096195BFD8F00750614 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		18FE1097195BFD8F00750614 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		18FE109C195C0B6100750614 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		18FE109D195C0B6100750614 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FE1057195BFD4200750614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE1060195BFD4200750614 /* CoreGraphics.framework in Frameworks */,
+				18FE1062195BFD4200750614 /* UIKit.framework in Frameworks */,
+				18FE105E195BFD4200750614 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE1078195BFD4200750614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE107D195BFD4200750614 /* XCTest.framework in Frameworks */,
+				18FE107F195BFD4200750614 /* UIKit.framework in Frameworks */,
+				18FE107E195BFD4200750614 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FE1051195BFD4200750614 = {
+			isa = PBXGroup;
+			children = (
+				18FE1063195BFD4200750614 /* 03-数据加密 */,
+				18FE1082195BFD4200750614 /* 03-数据加密Tests */,
+				18FE105C195BFD4200750614 /* Frameworks */,
+				18FE105B195BFD4200750614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FE105B195BFD4200750614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FE105A195BFD4200750614 /* 03-数据加密.app */,
+				18FE107B195BFD4200750614 /* 03-数据加密Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FE105C195BFD4200750614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FE105D195BFD4200750614 /* Foundation.framework */,
+				18FE105F195BFD4200750614 /* CoreGraphics.framework */,
+				18FE1061195BFD4200750614 /* UIKit.framework */,
+				18FE107C195BFD4200750614 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18FE1063195BFD4200750614 /* 03-数据加密 */ = {
+			isa = PBXGroup;
+			children = (
+				18FE109B195C0B6100750614 /* Category */,
+				18FE1092195BFD8F00750614 /* MBProgressHUD */,
+				18FE106C195BFD4200750614 /* HMAppDelegate.h */,
+				18FE106D195BFD4200750614 /* HMAppDelegate.m */,
+				18FE106F195BFD4200750614 /* Main.storyboard */,
+				18FE1072195BFD4200750614 /* HMViewController.h */,
+				18FE1073195BFD4200750614 /* HMViewController.m */,
+				18FE1075195BFD4200750614 /* Images.xcassets */,
+				18FE1064195BFD4200750614 /* Supporting Files */,
+			);
+			name = "03-数据加密";
+			path = "02-NSURLConnection02-POST请求";
+			sourceTree = "<group>";
+		};
+		18FE1064195BFD4200750614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FE1065195BFD4200750614 /* 03-数据加密-Info.plist */,
+				18FE1066195BFD4200750614 /* InfoPlist.strings */,
+				18FE1069195BFD4200750614 /* main.m */,
+				18FE106B195BFD4200750614 /* 03-数据加密-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FE1082195BFD4200750614 /* 03-数据加密Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18FE1088195BFD4200750614 /* _2_NSURLConnection02_POST__Tests.m */,
+				18FE1083195BFD4200750614 /* Supporting Files */,
+			);
+			name = "03-数据加密Tests";
+			path = "02-NSURLConnection02-POST请求Tests";
+			sourceTree = "<group>";
+		};
+		18FE1083195BFD4200750614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FE1084195BFD4200750614 /* 03-数据加密Tests-Info.plist */,
+				18FE1085195BFD4200750614 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FE1092195BFD8F00750614 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18FE1093195BFD8F00750614 /* MBProgressHUD+MJ.h */,
+				18FE1094195BFD8F00750614 /* MBProgressHUD+MJ.m */,
+				18FE1095195BFD8F00750614 /* MBProgressHUD.bundle */,
+				18FE1096195BFD8F00750614 /* MBProgressHUD.h */,
+				18FE1097195BFD8F00750614 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		18FE109B195C0B6100750614 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18FE109C195C0B6100750614 /* NSString+Hash.h */,
+				18FE109D195C0B6100750614 /* NSString+Hash.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FE1059195BFD4200750614 /* 03-数据加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE108C195BFD4200750614 /* Build configuration list for PBXNativeTarget "03-数据加密" */;
+			buildPhases = (
+				18FE1056195BFD4200750614 /* Sources */,
+				18FE1057195BFD4200750614 /* Frameworks */,
+				18FE1058195BFD4200750614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-数据加密";
+			productName = "02-NSURLConnection02-POST请求";
+			productReference = 18FE105A195BFD4200750614 /* 03-数据加密.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FE107A195BFD4200750614 /* 03-数据加密Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE108F195BFD4200750614 /* Build configuration list for PBXNativeTarget "03-数据加密Tests" */;
+			buildPhases = (
+				18FE1077195BFD4200750614 /* Sources */,
+				18FE1078195BFD4200750614 /* Frameworks */,
+				18FE1079195BFD4200750614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FE1081195BFD4200750614 /* PBXTargetDependency */,
+			);
+			name = "03-数据加密Tests";
+			productName = "02-NSURLConnection02-POST请求Tests";
+			productReference = 18FE107B195BFD4200750614 /* 03-数据加密Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FE1052195BFD4200750614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = heima;
+				TargetAttributes = {
+					18FE107A195BFD4200750614 = {
+						TestTargetID = 18FE1059195BFD4200750614;
+					};
+				};
+			};
+			buildConfigurationList = 18FE1055195BFD4200750614 /* Build configuration list for PBXProject "03-数据加密" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FE1051195BFD4200750614;
+			productRefGroup = 18FE105B195BFD4200750614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FE1059195BFD4200750614 /* 03-数据加密 */,
+				18FE107A195BFD4200750614 /* 03-数据加密Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FE1058195BFD4200750614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE1076195BFD4200750614 /* Images.xcassets in Resources */,
+				18FE1099195BFD8F00750614 /* MBProgressHUD.bundle in Resources */,
+				18FE1068195BFD4200750614 /* InfoPlist.strings in Resources */,
+				18FE1071195BFD4200750614 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE1079195BFD4200750614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE1087195BFD4200750614 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FE1056195BFD4200750614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE1098195BFD8F00750614 /* MBProgressHUD+MJ.m in Sources */,
+				18FE109E195C0B6100750614 /* NSString+Hash.m in Sources */,
+				18FE1074195BFD4200750614 /* HMViewController.m in Sources */,
+				18FE109A195BFD8F00750614 /* MBProgressHUD.m in Sources */,
+				18FE106A195BFD4200750614 /* main.m in Sources */,
+				18FE106E195BFD4200750614 /* HMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE1077195BFD4200750614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE1089195BFD4200750614 /* _2_NSURLConnection02_POST__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FE1081195BFD4200750614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FE1059195BFD4200750614 /* 03-数据加密 */;
+			targetProxy = 18FE1080195BFD4200750614 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FE1066195BFD4200750614 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE1067195BFD4200750614 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18FE106F195BFD4200750614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE1070195BFD4200750614 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FE1085195BFD4200750614 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE1086195BFD4200750614 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FE108A195BFD4200750614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FE108B195BFD4200750614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FE108D195BFD4200750614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-NSURLConnection02-POST请求/03-数据加密-Prefix.pch";
+				INFOPLIST_FILE = "02-NSURLConnection02-POST请求/03-数据加密-Info.plist";
+				PRODUCT_NAME = "03-数据加密";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18FE108E195BFD4200750614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-NSURLConnection02-POST请求/03-数据加密-Prefix.pch";
+				INFOPLIST_FILE = "02-NSURLConnection02-POST请求/03-数据加密-Info.plist";
+				PRODUCT_NAME = "03-数据加密";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18FE1090195BFD4200750614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/02-NSURLConnection02-POST请求.app/02-NSURLConnection02-POST请求";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-NSURLConnection02-POST请求/02-NSURLConnection02-POST请求-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-NSURLConnection02-POST请求Tests/03-数据加密Tests-Info.plist";
+				PRODUCT_NAME = "03-数据加密Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18FE1091195BFD4200750614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/02-NSURLConnection02-POST请求.app/02-NSURLConnection02-POST请求";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-NSURLConnection02-POST请求/02-NSURLConnection02-POST请求-Prefix.pch";
+				INFOPLIST_FILE = "02-NSURLConnection02-POST请求Tests/03-数据加密Tests-Info.plist";
+				PRODUCT_NAME = "03-数据加密Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FE1055195BFD4200750614 /* Build configuration list for PBXProject "03-数据加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE108A195BFD4200750614 /* Debug */,
+				18FE108B195BFD4200750614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FE108C195BFD4200750614 /* Build configuration list for PBXNativeTarget "03-数据加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE108D195BFD4200750614 /* Debug */,
+				18FE108E195BFD4200750614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FE108F195BFD4200750614 /* Build configuration list for PBXNativeTarget "03-数据加密Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE1090195BFD4200750614 /* Debug */,
+				18FE1091195BFD4200750614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FE1052195BFD4200750614 /* Project object */;
+}

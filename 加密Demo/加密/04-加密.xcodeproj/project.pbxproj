@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FE10AC195C0E7100750614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE10AB195C0E7100750614 /* Foundation.framework */; };
+		18FE10AE195C0E7100750614 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE10AD195C0E7100750614 /* CoreGraphics.framework */; };
+		18FE10B0195C0E7100750614 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE10AF195C0E7100750614 /* UIKit.framework */; };
+		18FE10B6195C0E7100750614 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18FE10B4195C0E7100750614 /* InfoPlist.strings */; };
+		18FE10B8195C0E7100750614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE10B7195C0E7100750614 /* main.m */; };
+		18FE10BC195C0E7100750614 /* HMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE10BB195C0E7100750614 /* HMAppDelegate.m */; };
+		18FE10BF195C0E7100750614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE10BD195C0E7100750614 /* Main.storyboard */; };
+		18FE10C2195C0E7100750614 /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE10C1195C0E7100750614 /* HMViewController.m */; };
+		18FE10C4195C0E7100750614 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FE10C3195C0E7100750614 /* Images.xcassets */; };
+		18FE10CB195C0E7100750614 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE10CA195C0E7100750614 /* XCTest.framework */; };
+		18FE10CC195C0E7100750614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE10AB195C0E7100750614 /* Foundation.framework */; };
+		18FE10CD195C0E7100750614 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FE10AF195C0E7100750614 /* UIKit.framework */; };
+		18FE10D5195C0E7100750614 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18FE10D3195C0E7100750614 /* InfoPlist.strings */; };
+		18FE10D7195C0E7100750614 /* _4___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE10D6195C0E7100750614 /* _4___Tests.m */; };
+		18FE10E3195C0E8E00750614 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE10E2195C0E8E00750614 /* NSString+Hash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FE10CE195C0E7100750614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FE10A0195C0E7100750614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FE10A7195C0E7100750614;
+			remoteInfo = "04-加密";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FE10A8195C0E7100750614 /* 04-加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE10AB195C0E7100750614 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18FE10AD195C0E7100750614 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18FE10AF195C0E7100750614 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18FE10B3195C0E7100750614 /* 04-加密-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "04-加密-Info.plist"; sourceTree = "<group>"; };
+		18FE10B5195C0E7100750614 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18FE10B7195C0E7100750614 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FE10B9195C0E7100750614 /* 04-加密-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "04-加密-Prefix.pch"; sourceTree = "<group>"; };
+		18FE10BA195C0E7100750614 /* HMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAppDelegate.h; sourceTree = "<group>"; };
+		18FE10BB195C0E7100750614 /* HMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAppDelegate.m; sourceTree = "<group>"; };
+		18FE10BE195C0E7100750614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FE10C0195C0E7100750614 /* HMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		18FE10C1195C0E7100750614 /* HMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
+		18FE10C3195C0E7100750614 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18FE10C9195C0E7100750614 /* 04-加密Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-加密Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE10CA195C0E7100750614 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18FE10D2195C0E7100750614 /* 04-加密Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "04-加密Tests-Info.plist"; sourceTree = "<group>"; };
+		18FE10D4195C0E7100750614 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18FE10D6195C0E7100750614 /* _4___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4___Tests.m"; sourceTree = "<group>"; };
+		18FE10E1195C0E8E00750614 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		18FE10E2195C0E8E00750614 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FE10A5195C0E7100750614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE10AE195C0E7100750614 /* CoreGraphics.framework in Frameworks */,
+				18FE10B0195C0E7100750614 /* UIKit.framework in Frameworks */,
+				18FE10AC195C0E7100750614 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE10C6195C0E7100750614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE10CB195C0E7100750614 /* XCTest.framework in Frameworks */,
+				18FE10CD195C0E7100750614 /* UIKit.framework in Frameworks */,
+				18FE10CC195C0E7100750614 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FE109F195C0E7100750614 = {
+			isa = PBXGroup;
+			children = (
+				18FE10B1195C0E7100750614 /* 04-加密 */,
+				18FE10D0195C0E7100750614 /* 04-加密Tests */,
+				18FE10AA195C0E7100750614 /* Frameworks */,
+				18FE10A9195C0E7100750614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FE10A9195C0E7100750614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FE10A8195C0E7100750614 /* 04-加密.app */,
+				18FE10C9195C0E7100750614 /* 04-加密Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FE10AA195C0E7100750614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FE10AB195C0E7100750614 /* Foundation.framework */,
+				18FE10AD195C0E7100750614 /* CoreGraphics.framework */,
+				18FE10AF195C0E7100750614 /* UIKit.framework */,
+				18FE10CA195C0E7100750614 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18FE10B1195C0E7100750614 /* 04-加密 */ = {
+			isa = PBXGroup;
+			children = (
+				18FE10E0195C0E8E00750614 /* Category */,
+				18FE10BA195C0E7100750614 /* HMAppDelegate.h */,
+				18FE10BB195C0E7100750614 /* HMAppDelegate.m */,
+				18FE10BD195C0E7100750614 /* Main.storyboard */,
+				18FE10C0195C0E7100750614 /* HMViewController.h */,
+				18FE10C1195C0E7100750614 /* HMViewController.m */,
+				18FE10C3195C0E7100750614 /* Images.xcassets */,
+				18FE10B2195C0E7100750614 /* Supporting Files */,
+			);
+			path = "04-加密";
+			sourceTree = "<group>";
+		};
+		18FE10B2195C0E7100750614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FE10B3195C0E7100750614 /* 04-加密-Info.plist */,
+				18FE10B4195C0E7100750614 /* InfoPlist.strings */,
+				18FE10B7195C0E7100750614 /* main.m */,
+				18FE10B9195C0E7100750614 /* 04-加密-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FE10D0195C0E7100750614 /* 04-加密Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18FE10D6195C0E7100750614 /* _4___Tests.m */,
+				18FE10D1195C0E7100750614 /* Supporting Files */,
+			);
+			path = "04-加密Tests";
+			sourceTree = "<group>";
+		};
+		18FE10D1195C0E7100750614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FE10D2195C0E7100750614 /* 04-加密Tests-Info.plist */,
+				18FE10D3195C0E7100750614 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FE10E0195C0E8E00750614 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18FE10E1195C0E8E00750614 /* NSString+Hash.h */,
+				18FE10E2195C0E8E00750614 /* NSString+Hash.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FE10A7195C0E7100750614 /* 04-加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE10DA195C0E7100750614 /* Build configuration list for PBXNativeTarget "04-加密" */;
+			buildPhases = (
+				18FE10A4195C0E7100750614 /* Sources */,
+				18FE10A5195C0E7100750614 /* Frameworks */,
+				18FE10A6195C0E7100750614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-加密";
+			productName = "04-加密";
+			productReference = 18FE10A8195C0E7100750614 /* 04-加密.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FE10C8195C0E7100750614 /* 04-加密Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE10DD195C0E7100750614 /* Build configuration list for PBXNativeTarget "04-加密Tests" */;
+			buildPhases = (
+				18FE10C5195C0E7100750614 /* Sources */,
+				18FE10C6195C0E7100750614 /* Frameworks */,
+				18FE10C7195C0E7100750614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FE10CF195C0E7100750614 /* PBXTargetDependency */,
+			);
+			name = "04-加密Tests";
+			productName = "04-加密Tests";
+			productReference = 18FE10C9195C0E7100750614 /* 04-加密Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FE10A0195C0E7100750614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = heima;
+				TargetAttributes = {
+					18FE10C8195C0E7100750614 = {
+						TestTargetID = 18FE10A7195C0E7100750614;
+					};
+				};
+			};
+			buildConfigurationList = 18FE10A3195C0E7100750614 /* Build configuration list for PBXProject "04-加密" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FE109F195C0E7100750614;
+			productRefGroup = 18FE10A9195C0E7100750614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FE10A7195C0E7100750614 /* 04-加密 */,
+				18FE10C8195C0E7100750614 /* 04-加密Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FE10A6195C0E7100750614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE10C4195C0E7100750614 /* Images.xcassets in Resources */,
+				18FE10B6195C0E7100750614 /* InfoPlist.strings in Resources */,
+				18FE10BF195C0E7100750614 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE10C7195C0E7100750614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE10D5195C0E7100750614 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FE10A4195C0E7100750614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE10C2195C0E7100750614 /* HMViewController.m in Sources */,
+				18FE10E3195C0E8E00750614 /* NSString+Hash.m in Sources */,
+				18FE10B8195C0E7100750614 /* main.m in Sources */,
+				18FE10BC195C0E7100750614 /* HMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE10C5195C0E7100750614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE10D7195C0E7100750614 /* _4___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FE10CF195C0E7100750614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FE10A7195C0E7100750614 /* 04-加密 */;
+			targetProxy = 18FE10CE195C0E7100750614 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FE10B4195C0E7100750614 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE10B5195C0E7100750614 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18FE10BD195C0E7100750614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE10BE195C0E7100750614 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FE10D3195C0E7100750614 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE10D4195C0E7100750614 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FE10D8195C0E7100750614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FE10D9195C0E7100750614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FE10DB195C0E7100750614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "04-加密/04-加密-Prefix.pch";
+				INFOPLIST_FILE = "04-加密/04-加密-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18FE10DC195C0E7100750614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "04-加密/04-加密-Prefix.pch";
+				INFOPLIST_FILE = "04-加密/04-加密-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18FE10DE195C0E7100750614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/04-加密.app/04-加密";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "04-加密/04-加密-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "04-加密Tests/04-加密Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18FE10DF195C0E7100750614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/04-加密.app/04-加密";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "04-加密/04-加密-Prefix.pch";
+				INFOPLIST_FILE = "04-加密Tests/04-加密Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FE10A3195C0E7100750614 /* Build configuration list for PBXProject "04-加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE10D8195C0E7100750614 /* Debug */,
+				18FE10D9195C0E7100750614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FE10DA195C0E7100750614 /* Build configuration list for PBXNativeTarget "04-加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE10DB195C0E7100750614 /* Debug */,
+				18FE10DC195C0E7100750614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FE10DD195C0E7100750614 /* Build configuration list for PBXNativeTarget "04-加密Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE10DE195C0E7100750614 /* Debug */,
+				18FE10DF195C0E7100750614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FE10A0195C0E7100750614 /* Project object */;
+}
